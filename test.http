@@ -1,0 +1,14 @@
+### 1) Hesap Oluştur (POST)
+POST http://localhost:8080/accounts
+Content-Type: application/json
+
+{
+  "ownerName": "Ahmet Yılmaz",
+  "balance": 1000.0
+}
+
+### 2) Tüm Hesapları Listele (GET)
+GET http://localhost:8080/accounts
+
+### 3) Tek Hesap Getir (GET)
+GET http://localhost:8080/accounts/1
